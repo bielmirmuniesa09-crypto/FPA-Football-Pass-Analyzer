@@ -1,0 +1,495 @@
+{
+    "versio": "2.1",
+    "guardat_el": "2026-07-30T12:05:42",
+    "partit": {
+        "equip": "FC Barcelona",
+        "rival": "Real Madrid",
+        "competicio": "Lliga",
+        "data_partit": "30/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local"
+    },
+    "alineacio": {
+        "jugadors": [
+            "Joan Garcia",
+            "Kundé",
+            "Eric",
+            "Cubarsí",
+            "Balde",
+            "Pedri",
+            "De jong",
+            "Dani Olmo",
+            "Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+        ],
+        "dorsals": [
+            "13",
+            "23",
+            "24",
+            "5",
+            "3",
+            "8",
+            "21",
+            "20",
+            "19",
+            "11",
+            "10"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ]
+    },
+    "passades": [
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 7,
+            "resultat": "bona"
+        },
+        {
+            "origen": 7,
+            "desti": 4,
+            "resultat": "bona"
+        },
+        {
+            "origen": 4,
+            "desti": 3,
+            "resultat": "bona"
+        },
+        {
+            "origen": 3,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 0,
+            "resultat": "bona"
+        },
+        {
+            "origen": 0,
+            "desti": 1,
+            "resultat": "bona"
+        },
+        {
+            "origen": 1,
+            "desti": null,
+            "resultat": "dolenta"
+        },
+        {
+            "origen": 8,
+            "desti": 5,
+            "resultat": "bona"
+        },
+        {
+            "origen": 5,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 9,
+            "resultat": "bona"
+        },
+        {
+            "origen": 9,
+            "desti": 10,
+            "resultat": "dolenta"
+        },
+        {
+            "origen": 9,
+            "desti": 8,
+            "resultat": "bona"
+        },
+        {
+            "origen": 8,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 7,
+            "resultat": "bona"
+        },
+        {
+            "origen": 7,
+            "desti": 10,
+            "resultat": "bona"
+        },
+        {
+            "origen": 10,
+            "desti": 4,
+            "resultat": "bona"
+        },
+        {
+            "origen": 3,
+            "desti": 9,
+            "resultat": "bona"
+        },
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 8,
+            "resultat": "bona"
+        },
+        {
+            "origen": 8,
+            "desti": 1,
+            "resultat": "bona"
+        },
+        {
+            "origen": 1,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 0,
+            "resultat": "bona"
+        },
+        {
+            "origen": 0,
+            "desti": 10,
+            "resultat": "bona"
+        }
+    ],
+    "resum": {
+        "equip": "FC Barcelona",
+        "rival": "Real Madrid",
+        "competicio": "Lliga",
+        "data_partit": "30/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local",
+        "jugadors": [
+            "Joan Garcia",
+            "Kundé",
+            "Eric",
+            "Cubarsí",
+            "Balde",
+            "Pedri",
+            "De jong",
+            "Dani Olmo",
+            "Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+        ],
+        "dorsals": [
+            "13",
+            "23",
+            "24",
+            "5",
+            "3",
+            "8",
+            "21",
+            "20",
+            "19",
+            "11",
+            "10"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ],
+        "total": 24,
+        "bones": 22,
+        "dolentes": 2,
+        "precisio": 91.66666666666666
+    },
+    "estadistiques_jugadors": [
+        {
+            "index": 0,
+            "jugador": "Joan Garcia",
+            "dorsal": "13",
+            "posicio": "Porter",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 1,
+            "jugador": "Kundé",
+            "dorsal": "23",
+            "posicio": "Lateral dret",
+            "intentades": 2,
+            "bones": 1,
+            "dolentes": 1,
+            "rebudes": 2,
+            "precisio": 50.0
+        },
+        {
+            "index": 2,
+            "jugador": "Eric",
+            "dorsal": "24",
+            "posicio": "Central dret",
+            "intentades": 3,
+            "bones": 3,
+            "dolentes": 0,
+            "rebudes": 3,
+            "precisio": 100.0
+        },
+        {
+            "index": 3,
+            "jugador": "Cubarsí",
+            "dorsal": "5",
+            "posicio": "Central esquerre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 4,
+            "jugador": "Balde",
+            "dorsal": "3",
+            "posicio": "Lateral esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 5,
+            "jugador": "Pedri",
+            "dorsal": "8",
+            "posicio": "Migcampista centre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 6,
+            "jugador": "De jong",
+            "dorsal": "21",
+            "posicio": "Migcampista defensiu",
+            "intentades": 3,
+            "bones": 3,
+            "dolentes": 0,
+            "rebudes": 3,
+            "precisio": 100.0
+        },
+        {
+            "index": 7,
+            "jugador": "Dani Olmo",
+            "dorsal": "20",
+            "posicio": "Migcampista centre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 8,
+            "jugador": "Gordon",
+            "dorsal": "19",
+            "posicio": "Extrem dret",
+            "intentades": 3,
+            "bones": 3,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 9,
+            "jugador": "Raphinha",
+            "dorsal": "11",
+            "posicio": "Davanter centre",
+            "intentades": 4,
+            "bones": 3,
+            "dolentes": 1,
+            "rebudes": 2,
+            "precisio": 75.0
+        },
+        {
+            "index": 10,
+            "jugador": "Lamine Yamal",
+            "dorsal": "10",
+            "posicio": "Extrem esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        }
+    ],
+    "historial_passades": [
+        {
+            "numero": 1,
+            "origen": "Raphinha",
+            "desti": "De jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 2,
+            "origen": "De jong",
+            "desti": "Dani Olmo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 3,
+            "origen": "Dani Olmo",
+            "desti": "Balde",
+            "resultat": "bona"
+        },
+        {
+            "numero": 4,
+            "origen": "Balde",
+            "desti": "Cubarsí",
+            "resultat": "bona"
+        },
+        {
+            "numero": 5,
+            "origen": "Cubarsí",
+            "desti": "Eric",
+            "resultat": "bona"
+        },
+        {
+            "numero": 6,
+            "origen": "Eric",
+            "desti": "Joan Garcia",
+            "resultat": "bona"
+        },
+        {
+            "numero": 7,
+            "origen": "Joan Garcia",
+            "desti": "Kundé",
+            "resultat": "bona"
+        },
+        {
+            "numero": 8,
+            "origen": "Kundé",
+            "desti": "Sense destinatari",
+            "resultat": "dolenta"
+        },
+        {
+            "numero": 9,
+            "origen": "Gordon",
+            "desti": "Pedri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 10,
+            "origen": "Pedri",
+            "desti": "De jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 11,
+            "origen": "De jong",
+            "desti": "Raphinha",
+            "resultat": "bona"
+        },
+        {
+            "numero": 12,
+            "origen": "Raphinha",
+            "desti": "Lamine Yamal",
+            "resultat": "dolenta"
+        },
+        {
+            "numero": 13,
+            "origen": "Raphinha",
+            "desti": "Gordon",
+            "resultat": "bona"
+        },
+        {
+            "numero": 14,
+            "origen": "Gordon",
+            "desti": "Eric",
+            "resultat": "bona"
+        },
+        {
+            "numero": 15,
+            "origen": "Eric",
+            "desti": "Dani Olmo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 16,
+            "origen": "Dani Olmo",
+            "desti": "Lamine Yamal",
+            "resultat": "bona"
+        },
+        {
+            "numero": 17,
+            "origen": "Lamine Yamal",
+            "desti": "Balde",
+            "resultat": "bona"
+        },
+        {
+            "numero": 18,
+            "origen": "Cubarsí",
+            "desti": "Raphinha",
+            "resultat": "bona"
+        },
+        {
+            "numero": 19,
+            "origen": "Raphinha",
+            "desti": "De jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 20,
+            "origen": "De jong",
+            "desti": "Gordon",
+            "resultat": "bona"
+        },
+        {
+            "numero": 21,
+            "origen": "Gordon",
+            "desti": "Kundé",
+            "resultat": "bona"
+        },
+        {
+            "numero": 22,
+            "origen": "Kundé",
+            "desti": "Eric",
+            "resultat": "bona"
+        },
+        {
+            "numero": 23,
+            "origen": "Eric",
+            "desti": "Joan Garcia",
+            "resultat": "bona"
+        },
+        {
+            "numero": 24,
+            "origen": "Joan Garcia",
+            "desti": "Lamine Yamal",
+            "resultat": "bona"
+        }
+    ]
+}

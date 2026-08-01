@@ -1,0 +1,340 @@
+{
+    "versio": "2.1",
+    "guardat_el": "2026-07-14T11:34:39",
+    "partit": {
+        "equip": "FC Barcelona",
+        "rival": "Valencia",
+        "competicio": "Lliga",
+        "data_partit": "14/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local"
+    },
+    "alineacio": {
+        "jugadors": [
+            "Joan Garcia",
+            "Kunde",
+            "Cubarsi",
+            "araujo",
+            "balde",
+            "pedri",
+            "de jong",
+            "gavi",
+            "gordon",
+            "raphinha",
+            "lamine yamal"
+        ],
+        "dorsals": [
+            "1",
+            "23",
+            "5",
+            "4",
+            "3",
+            "8",
+            "21",
+            "6",
+            "27",
+            "11",
+            "10"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ]
+    },
+    "passades": [
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 4,
+            "resultat": "bona"
+        },
+        {
+            "origen": 4,
+            "desti": 3,
+            "resultat": "bona"
+        },
+        {
+            "origen": 3,
+            "desti": 0,
+            "resultat": "bona"
+        },
+        {
+            "origen": 0,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 5,
+            "resultat": "bona"
+        },
+        {
+            "origen": 5,
+            "desti": 1,
+            "resultat": "bona"
+        },
+        {
+            "origen": 1,
+            "desti": 10,
+            "resultat": "bona"
+        },
+        {
+            "origen": 10,
+            "desti": 9,
+            "resultat": "bona"
+        },
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 8,
+            "resultat": "bona"
+        },
+        {
+            "origen": 8,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 7,
+            "resultat": "bona"
+        }
+    ],
+    "resum": {
+        "total": 14,
+        "bones": 14,
+        "dolentes": 0,
+        "precisio": 100.0
+    },
+    "estadistiques_jugadors": [
+        {
+            "index": 0,
+            "jugador": "Joan Garcia",
+            "dorsal": "1",
+            "posicio": "Porter",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 1,
+            "jugador": "Kunde",
+            "dorsal": "23",
+            "posicio": "Lateral dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 2,
+            "jugador": "Cubarsi",
+            "dorsal": "5",
+            "posicio": "Central dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 3,
+            "jugador": "araujo",
+            "dorsal": "4",
+            "posicio": "Central esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 4,
+            "jugador": "balde",
+            "dorsal": "3",
+            "posicio": "Lateral esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 5,
+            "jugador": "pedri",
+            "dorsal": "8",
+            "posicio": "Migcampista centre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 6,
+            "jugador": "de jong",
+            "dorsal": "21",
+            "posicio": "Migcampista defensiu",
+            "intentades": 4,
+            "bones": 4,
+            "dolentes": 0,
+            "rebudes": 4,
+            "precisio": 100.0
+        },
+        {
+            "index": 7,
+            "jugador": "gavi",
+            "dorsal": "6",
+            "posicio": "Migcampista centre",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        },
+        {
+            "index": 8,
+            "jugador": "gordon",
+            "dorsal": "27",
+            "posicio": "Extrem dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 9,
+            "jugador": "raphinha",
+            "dorsal": "11",
+            "posicio": "Davanter centre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 10,
+            "jugador": "lamine yamal",
+            "dorsal": "10",
+            "posicio": "Extrem esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        }
+    ],
+    "historial_llegible": [
+        {
+            "numero": 1,
+            "origen": "raphinha",
+            "desti": "de jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 2,
+            "origen": "de jong",
+            "desti": "balde",
+            "resultat": "bona"
+        },
+        {
+            "numero": 3,
+            "origen": "balde",
+            "desti": "araujo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 4,
+            "origen": "araujo",
+            "desti": "Joan Garcia",
+            "resultat": "bona"
+        },
+        {
+            "numero": 5,
+            "origen": "Joan Garcia",
+            "desti": "de jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 6,
+            "origen": "de jong",
+            "desti": "Cubarsi",
+            "resultat": "bona"
+        },
+        {
+            "numero": 7,
+            "origen": "Cubarsi",
+            "desti": "pedri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 8,
+            "origen": "pedri",
+            "desti": "Kunde",
+            "resultat": "bona"
+        },
+        {
+            "numero": 9,
+            "origen": "Kunde",
+            "desti": "lamine yamal",
+            "resultat": "bona"
+        },
+        {
+            "numero": 10,
+            "origen": "lamine yamal",
+            "desti": "raphinha",
+            "resultat": "bona"
+        },
+        {
+            "numero": 11,
+            "origen": "raphinha",
+            "desti": "de jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 12,
+            "origen": "de jong",
+            "desti": "gordon",
+            "resultat": "bona"
+        },
+        {
+            "numero": 13,
+            "origen": "gordon",
+            "desti": "de jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 14,
+            "origen": "de jong",
+            "desti": "gavi",
+            "resultat": "bona"
+        }
+    ]
+}

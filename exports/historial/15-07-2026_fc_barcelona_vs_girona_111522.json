@@ -1,0 +1,352 @@
+{
+    "versio": "2.1",
+    "guardat_el": "2026-07-15T11:15:22",
+    "partit": {
+        "equip": "FC Barcelona",
+        "rival": "Girona",
+        "competicio": "Lliga",
+        "data_partit": "15/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local"
+    },
+    "alineacio": {
+        "jugadors": [
+            "Joan Garcia",
+            "Kunde",
+            "Cubarsi",
+            "Araujo",
+            "Cancelo",
+            "Pedri",
+            "De Jong",
+            "Gavi",
+            "Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+        ],
+        "dorsals": [
+            "13",
+            "23",
+            "5",
+            "4",
+            "22",
+            "8",
+            "21",
+            "6",
+            "27",
+            "11",
+            "10"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ]
+    },
+    "passades": [
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 7,
+            "desti": 4,
+            "resultat": "bona"
+        },
+        {
+            "origen": 5,
+            "desti": 8,
+            "resultat": "bona"
+        },
+        {
+            "origen": 1,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 0,
+            "desti": 10,
+            "resultat": "dolenta"
+        },
+        {
+            "origen": 0,
+            "desti": 3,
+            "resultat": "bona"
+        },
+        {
+            "origen": 9,
+            "desti": 5,
+            "resultat": "bona"
+        },
+        {
+            "origen": 3,
+            "desti": 6,
+            "resultat": "dolenta"
+        },
+        {
+            "origen": 3,
+            "desti": 7,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 9,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 10,
+            "resultat": "bona"
+        }
+    ],
+    "resum": {
+        "equip": "FC Barcelona",
+        "rival": "Girona",
+        "competicio": "Lliga",
+        "data_partit": "15/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local",
+        "jugadors": [
+            "Joan Garcia",
+            "Kunde",
+            "Cubarsi",
+            "Araujo",
+            "Cancelo",
+            "Pedri",
+            "De Jong",
+            "Gavi",
+            "Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+        ],
+        "dorsals": [
+            "13",
+            "23",
+            "5",
+            "4",
+            "22",
+            "8",
+            "21",
+            "6",
+            "27",
+            "11",
+            "10"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ],
+        "total": 11,
+        "bones": 9,
+        "dolentes": 2,
+        "precisio": 81.81818181818183
+    },
+    "estadistiques_jugadors": [
+        {
+            "index": 0,
+            "jugador": "Joan Garcia",
+            "dorsal": "13",
+            "posicio": "Porter",
+            "intentades": 2,
+            "bones": 1,
+            "dolentes": 1,
+            "rebudes": 0,
+            "precisio": 50.0
+        },
+        {
+            "index": 1,
+            "jugador": "Kunde",
+            "dorsal": "23",
+            "posicio": "Lateral dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 0,
+            "precisio": 100.0
+        },
+        {
+            "index": 2,
+            "jugador": "Cubarsi",
+            "dorsal": "5",
+            "posicio": "Central dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 3,
+            "jugador": "Araujo",
+            "dorsal": "4",
+            "posicio": "Central esquerre",
+            "intentades": 2,
+            "bones": 1,
+            "dolentes": 1,
+            "rebudes": 1,
+            "precisio": 50.0
+        },
+        {
+            "index": 4,
+            "jugador": "Cancelo",
+            "dorsal": "22",
+            "posicio": "Lateral esquerre",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        },
+        {
+            "index": 5,
+            "jugador": "Pedri",
+            "dorsal": "8",
+            "posicio": "Migcampista centre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 6,
+            "jugador": "De Jong",
+            "dorsal": "21",
+            "posicio": "Migcampista defensiu",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 7,
+            "jugador": "Gavi",
+            "dorsal": "6",
+            "posicio": "Migcampista centre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 8,
+            "jugador": "Gordon",
+            "dorsal": "27",
+            "posicio": "Extrem dret",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        },
+        {
+            "index": 9,
+            "jugador": "Raphinha",
+            "dorsal": "11",
+            "posicio": "Davanter centre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 10,
+            "jugador": "Lamine Yamal",
+            "dorsal": "10",
+            "posicio": "Extrem esquerre",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        }
+    ],
+    "historial_passades": [
+        {
+            "numero": 1,
+            "origen": "Raphinha",
+            "desti": "De Jong",
+            "resultat": "bona"
+        },
+        {
+            "numero": 2,
+            "origen": "Gavi",
+            "desti": "Cancelo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 3,
+            "origen": "Pedri",
+            "desti": "Gordon",
+            "resultat": "bona"
+        },
+        {
+            "numero": 4,
+            "origen": "Kunde",
+            "desti": "Cubarsi",
+            "resultat": "bona"
+        },
+        {
+            "numero": 5,
+            "origen": "Joan Garcia",
+            "desti": "Lamine Yamal",
+            "resultat": "dolenta"
+        },
+        {
+            "numero": 6,
+            "origen": "Joan Garcia",
+            "desti": "Araujo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 7,
+            "origen": "Raphinha",
+            "desti": "Pedri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 8,
+            "origen": "Araujo",
+            "desti": "De Jong",
+            "resultat": "dolenta"
+        },
+        {
+            "numero": 9,
+            "origen": "Araujo",
+            "desti": "Gavi",
+            "resultat": "bona"
+        },
+        {
+            "numero": 10,
+            "origen": "Cubarsi",
+            "desti": "Raphinha",
+            "resultat": "bona"
+        },
+        {
+            "numero": 11,
+            "origen": "De Jong",
+            "desti": "Lamine Yamal",
+            "resultat": "bona"
+        }
+    ]
+}

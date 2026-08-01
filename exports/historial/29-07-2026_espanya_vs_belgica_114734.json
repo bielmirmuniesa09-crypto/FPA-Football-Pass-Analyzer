@@ -1,0 +1,352 @@
+{
+    "versio": "2.1",
+    "guardat_el": "2026-07-29T11:47:34",
+    "partit": {
+        "equip": "Espanya",
+        "rival": "Bélgica",
+        "competicio": "Torneig",
+        "data_partit": "29/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local"
+    },
+    "alineacio": {
+        "jugadors": [
+            "Unai Simón",
+            "Cucurella",
+            "Laporte",
+            "Cubarsi",
+            "Porro",
+            "Dani Olmo",
+            "Rodri",
+            "Pedri",
+            "Baena",
+            "Oyarzabal",
+            "Lamine"
+        ],
+        "dorsals": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ]
+    },
+    "passades": [
+        {
+            "origen": 9,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 3,
+            "resultat": "bona"
+        },
+        {
+            "origen": 3,
+            "desti": 7,
+            "resultat": "bona"
+        },
+        {
+            "origen": 7,
+            "desti": 4,
+            "resultat": "bona"
+        },
+        {
+            "origen": 4,
+            "desti": 2,
+            "resultat": "bona"
+        },
+        {
+            "origen": 2,
+            "desti": 5,
+            "resultat": "bona"
+        },
+        {
+            "origen": 5,
+            "desti": 9,
+            "resultat": "bona"
+        },
+        {
+            "origen": 9,
+            "desti": 10,
+            "resultat": "bona"
+        },
+        {
+            "origen": 0,
+            "desti": 6,
+            "resultat": "bona"
+        },
+        {
+            "origen": 6,
+            "desti": 1,
+            "resultat": "bona"
+        },
+        {
+            "origen": 5,
+            "desti": 2,
+            "resultat": "bona"
+        }
+    ],
+    "resum": {
+        "equip": "Espanya",
+        "rival": "Bélgica",
+        "competicio": "Torneig",
+        "data_partit": "29/07/2026",
+        "sistema": "4-3-3",
+        "local_visitant": "Local",
+        "jugadors": [
+            "Unai Simón",
+            "Cucurella",
+            "Laporte",
+            "Cubarsi",
+            "Porro",
+            "Dani Olmo",
+            "Rodri",
+            "Pedri",
+            "Baena",
+            "Oyarzabal",
+            "Lamine"
+        ],
+        "dorsals": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "posicions": [
+            "Porter",
+            "Lateral dret",
+            "Central dret",
+            "Central esquerre",
+            "Lateral esquerre",
+            "Migcampista centre",
+            "Migcampista defensiu",
+            "Migcampista centre",
+            "Extrem dret",
+            "Davanter centre",
+            "Extrem esquerre"
+        ],
+        "total": 11,
+        "bones": 11,
+        "dolentes": 0,
+        "precisio": 100.0
+    },
+    "estadistiques_jugadors": [
+        {
+            "index": 0,
+            "jugador": "Unai Simón",
+            "dorsal": "1",
+            "posicio": "Porter",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 0,
+            "precisio": 100.0
+        },
+        {
+            "index": 1,
+            "jugador": "Cucurella",
+            "dorsal": "2",
+            "posicio": "Lateral dret",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        },
+        {
+            "index": 2,
+            "jugador": "Laporte",
+            "dorsal": "3",
+            "posicio": "Central dret",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 3,
+            "jugador": "Cubarsi",
+            "dorsal": "4",
+            "posicio": "Central esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 4,
+            "jugador": "Porro",
+            "dorsal": "5",
+            "posicio": "Lateral esquerre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 5,
+            "jugador": "Dani Olmo",
+            "dorsal": "6",
+            "posicio": "Migcampista centre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 6,
+            "jugador": "Rodri",
+            "dorsal": "7",
+            "posicio": "Migcampista defensiu",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 2,
+            "precisio": 100.0
+        },
+        {
+            "index": 7,
+            "jugador": "Pedri",
+            "dorsal": "8",
+            "posicio": "Migcampista centre",
+            "intentades": 1,
+            "bones": 1,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 8,
+            "jugador": "Baena",
+            "dorsal": "9",
+            "posicio": "Extrem dret",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 0,
+            "precisio": 0.0
+        },
+        {
+            "index": 9,
+            "jugador": "Oyarzabal",
+            "dorsal": "10",
+            "posicio": "Davanter centre",
+            "intentades": 2,
+            "bones": 2,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 100.0
+        },
+        {
+            "index": 10,
+            "jugador": "Lamine",
+            "dorsal": "11",
+            "posicio": "Extrem esquerre",
+            "intentades": 0,
+            "bones": 0,
+            "dolentes": 0,
+            "rebudes": 1,
+            "precisio": 0.0
+        }
+    ],
+    "historial_passades": [
+        {
+            "numero": 1,
+            "origen": "Oyarzabal",
+            "desti": "Rodri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 2,
+            "origen": "Rodri",
+            "desti": "Cubarsi",
+            "resultat": "bona"
+        },
+        {
+            "numero": 3,
+            "origen": "Cubarsi",
+            "desti": "Pedri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 4,
+            "origen": "Pedri",
+            "desti": "Porro",
+            "resultat": "bona"
+        },
+        {
+            "numero": 5,
+            "origen": "Porro",
+            "desti": "Laporte",
+            "resultat": "bona"
+        },
+        {
+            "numero": 6,
+            "origen": "Laporte",
+            "desti": "Dani Olmo",
+            "resultat": "bona"
+        },
+        {
+            "numero": 7,
+            "origen": "Dani Olmo",
+            "desti": "Oyarzabal",
+            "resultat": "bona"
+        },
+        {
+            "numero": 8,
+            "origen": "Oyarzabal",
+            "desti": "Lamine",
+            "resultat": "bona"
+        },
+        {
+            "numero": 9,
+            "origen": "Unai Simón",
+            "desti": "Rodri",
+            "resultat": "bona"
+        },
+        {
+            "numero": 10,
+            "origen": "Rodri",
+            "desti": "Cucurella",
+            "resultat": "bona"
+        },
+        {
+            "numero": 11,
+            "origen": "Dani Olmo",
+            "desti": "Laporte",
+            "resultat": "bona"
+        }
+    ]
+}
