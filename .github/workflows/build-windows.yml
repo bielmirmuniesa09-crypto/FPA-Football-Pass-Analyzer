@@ -51,7 +51,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: FPA-Windows-Installer
-          path: |
-            dist/**/*.exe
+          path: dist/installer/FPA-Windows-Setup.exe
           if-no-files-found: error
           
