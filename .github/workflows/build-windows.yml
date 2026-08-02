@@ -40,17 +40,18 @@ jobs:
       - name: Crear l'instal·lador
         shell: pwsh
         run: |
-          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "installer.iss"
+          iscc installer.iss
 
-      - name: Comprovar l'instal·lador
+      - name: Mostrar fitxers generats
         shell: pwsh
         run: |
-          Get-ChildItem -Recurse installer-output
+          Get-ChildItem -Path . -Recurse -Include *.exe
 
-      - name: Pujar FPA Setup
+      - name: Pujar l'instal·lador
         uses: actions/upload-artifact@v4
         with:
           name: FPA-Windows-Installer
-          path: installer-output/FPA-Setup.exe
+          path: |
+            dist/**/*.exe
           if-no-files-found: error
-          retention-days: 30
+          
