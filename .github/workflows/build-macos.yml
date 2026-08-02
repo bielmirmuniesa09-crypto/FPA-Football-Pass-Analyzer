@@ -1,0 +1,51 @@
+name: Build FPA macOS
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+
+    steps:
+      - name: Descarregar el projecte
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instal·lar dependències
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+          brew install create-dmg
+
+      - name: Compilar l'aplicació
+        run: |
+          pyinstaller --noconfirm --clean FPA.spec
+
+      - name: Crear carpeta DMG
+        run: |
+          mkdir dmg
+          cp -R dist/FPA.app dmg/
+
+      - name: Crear DMG
+        run: |
+          create-dmg \
+            --volname "Football Pass Analyzer" \
+            --window-size 600 400 \
+            --icon-size 120 \
+            --app-drop-link 450 200 \
+            "FPA-Mac.dmg" \
+            "dmg"
+
+      - name: Publicar DMG
+        uses: softprops/action-gh-release@v2
+        with:
+          files: FPA-Mac.dmg
