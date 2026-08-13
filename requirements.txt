@@ -4,4 +4,3 @@ matplotlib
 openpyxl
 Pillow
 scipy
-python3 -m pip install scipy
