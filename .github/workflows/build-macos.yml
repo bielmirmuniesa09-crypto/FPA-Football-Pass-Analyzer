@@ -1,108 +1,63 @@
-name: Build FPA macOS
+name: Build FPA macOS Apple Silicon
 
 on:
   workflow_dispatch:
-    inputs:
-      release_tag:
-        description: "Etiqueta de la Release on es pujarà el DMG"
-        required: true
-        default: "v1.0.0"
-
-permissions:
-  contents: write
 
 jobs:
-  build-macos:
-    runs-on: macos-latest
+  build-macos-arm64:
+    runs-on: macos-26
 
     steps:
       - name: Descarregar el projecte
         uses: actions/checkout@v4
 
+      - name: Comprovar arquitectura
+        run: |
+          uname -m
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
 
-      - name: Preparar dependències
-        shell: bash
+      - name: Instal·lar dependències
         run: |
           python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+          brew install create-dmg
 
-          # Elimina de requirements.txt possibles ordres incorrectes
-          # com "python3 -m pip install scipy".
-          if [ -f requirements.txt ]; then
-            grep -vE '^[[:space:]]*(python3?|pip3?)[[:space:]]+(-m[[:space:]]+pip[[:space:]]+)?install' requirements.txt > requirements-clean.txt || true
+      - name: Comprovar Python
+        run: |
+          python --version
+          python -c "import platform; print(platform.machine())"
 
-            if [ -s requirements-clean.txt ]; then
-              python -m pip install -r requirements-clean.txt
-            fi
-          fi
-
-          python -m pip install pyinstaller scipy
-
-      - name: Compilar l'aplicació
-        shell: bash
+      - name: Compilar FPA Apple Silicon
         run: |
           pyinstaller --noconfirm --clean FPA.spec
 
-      - name: Comprovar aplicació generada
-        shell: bash
+      - name: Comprovar arquitectura de FPA
         run: |
-          APP_PATH="$(find dist -maxdepth 2 -type d -name '*.app' | head -n 1)"
+          file dist/FPA.app/Contents/MacOS/FPA
 
-          if [ -z "$APP_PATH" ]; then
-            echo "No s'ha trobat cap aplicació .app dins de dist/"
-            echo "Contingut de dist:"
-            find dist -maxdepth 3 -print
-            exit 1
-          fi
-
-          echo "Aplicació trobada: $APP_PATH"
-          echo "APP_PATH=$APP_PATH" >> "$GITHUB_ENV"
-
-      - name: Preparar contingut del DMG
-        shell: bash
+      - name: Crear carpeta DMG
         run: |
-          rm -rf dmg-content
-          mkdir -p dmg-content
+          rm -rf dmg
+          mkdir dmg
+          cp -R dist/FPA.app dmg/
 
-          cp -R "$APP_PATH" dmg-content/
-          ln -s /Applications dmg-content/Applications
-
-      - name: Crear FPA-Mac.dmg
-        shell: bash
+      - name: Crear DMG Apple Silicon
         run: |
-          rm -f FPA-Mac.dmg
+          create-dmg \
+            --volname "Football Pass Analyzer" \
+            --window-size 600 400 \
+            --icon-size 120 \
+            --app-drop-link 450 200 \
+            "FPA-macOS-Apple-Silicon.dmg" \
+            "dmg"
 
-          hdiutil create \
-            -volname "Football Pass Analyzer" \
-            -srcfolder dmg-content \
-            -ov \
-            -format UDZO \
-            FPA-Mac.dmg
-
-          test -f FPA-Mac.dmg
-          ls -lh FPA-Mac.dmg
-
-      - name: Guardar DMG com a artefacte
+      - name: Pujar DMG com artifact
         uses: actions/upload-artifact@v4
         with:
-          name: FPA-Mac
-          path: FPA-Mac.dmg
-          if-no-files-found: error
-
-      - name: Publicar DMG a la Release
-        shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ inputs.release_tag }}
-        run: |
-          gh release view "$RELEASE_TAG" \
-            --repo "${{ github.repository }}"
-
-          gh release upload "$RELEASE_TAG" \
-            FPA-Mac.dmg \
-            --clobber \
-            --repo "${{ github.repository }}"
+          name: FPA-macOS-Apple-Silicon
+          path: FPA-macOS-Apple-Silicon.dmg
